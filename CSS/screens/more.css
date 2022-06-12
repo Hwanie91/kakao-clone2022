@@ -10,8 +10,8 @@
     padding-bottom: 28px;
 }
 .more-suggestions__icon img {
-    height: 56px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
 }
 .more-suggestions__icons {
     display: flex;
@@ -22,8 +22,21 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0px 25px;
+    margin: 0px 23px;
 }
 .more-suggestions__icon span {
     padding-top: 10px;
+}
+.more-suggestions__icon-image {
+    width: 55px;
+    height: 55px;
+    background-color: var(--yellow);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more-suggestions__icon-image i {
+    font-size: 32px;
+    color: white;
 }
