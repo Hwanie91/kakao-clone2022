@@ -1,0 +1,19 @@
+.alt-header {
+    padding: 15px 19px;
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alt-header__title {
+    font-size: 23px;
+}
+.alt-header__column:first-child {
+    margin-right: auto;
+}
+.alt-header__column:last-child {
+    margin-left: auto;
+}
+.main-screensettings {
+    padding: 0 var(--horizontal-space);
+}
